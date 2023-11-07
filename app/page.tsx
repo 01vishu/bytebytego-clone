@@ -35,7 +35,7 @@ export default function Home() {
                 <div className="bg-green-400 w-fit p-1 text-white rounded-full text-sm">
                   <Check size={16} />
                 </div>
-                YOU'LL LEARN
+                YOU&apos;LL LEARN
               </h3>
               <div className="flex flex-col gap-2 text-sm text-gray-700 md:text-base">
                 <li>
@@ -43,8 +43,8 @@ export default function Home() {
                   questions.
                 </li>
                 <li>
-                  An insider’s take on what interviewers really look for and
-                  why.
+                  An insider&apos;s take on what interviewers really look for
+                  and why.
                 </li>
                 <li>
                   10 real ML system design interview questions with detailed

@@ -53,7 +53,11 @@ export default function Navbar() {
         </div>
         <div className="flex ">
           {routes.map((route) => (
-            <Button variant={"link"} className={" hidden md:flex font-normal"}>
+            <Button
+              key={route.label}
+              variant={"link"}
+              className={" hidden md:flex font-normal"}
+            >
               {route.label}
             </Button>
           ))}

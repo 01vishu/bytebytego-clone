@@ -47,7 +47,7 @@ const CourseContent = () => {
       </h3>
       <ol type="1" className="px-8">
         {courseContent.map((content) => (
-          <li className="py-2">
+          <li className="py-2" key={content.name}>
             <div className="flex items-center justify-between pl-4 ">
               <span>{content.name}</span>
               {content.isFree ? (

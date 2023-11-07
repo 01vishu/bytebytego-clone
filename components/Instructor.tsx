@@ -25,8 +25,8 @@ const Instructor = () => {
     <div className="max-w-sm w-full flex-1">
       <h3 className="font-medium text-lg py-4">Instructor</h3>
       {instructors.map((instructor) => (
-        <div className="flex flex-col gap-4">
-          <div key={instructor.name} className="flex items-center gap-2">
+        <div className="flex flex-col gap-4" key={instructor.name}>
+          <div className="flex items-center gap-2">
             <Image
               src={instructor.image}
               height={70}
